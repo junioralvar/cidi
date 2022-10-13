@@ -1,0 +1,19 @@
+.button-navlink{
+  text-decoration: none;
+  color: black;
+}
+.button-top{
+  border-color: #e5f503;
+  border-width: 3px;
+  border-style: solid;
+}
+.button-top:hover{
+  border-color: black;
+  
+  border-width: 3px;
+  border-style: solid;
+}
+.button-navlink:hover{
+  text-decoration: none;
+  color: #e5f503;
+}

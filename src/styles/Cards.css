@@ -1,0 +1,30 @@
+.img-card{
+    max-width: 350px;
+}
+.ancla{
+    text-decoration: none !important;   
+}
+.icono{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    max-width: 450px;
+}
+.text-decoration{
+    text-decoration: none;
+    
+}
+
+.gallery{
+    display: grid;
+    gap: 1rem;
+    grid-auto-rows: 22rem;
+    grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+    
+}
+
+.card-espacio{
+    margin-bottom: 50px !important;
+}
+.icono{
+    max-width: 250px;
+}
