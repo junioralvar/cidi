@@ -25,8 +25,9 @@ export function NavBarExample() {
               <Nav.Link as={Link} className='font-text text-navbar'  to='Regulation' >Reglamento</Nav.Link>
               <Nav.Link as={Link} className='font-text text-navbar'  to='Alert' >Alerta Bibliográfica</Nav.Link>
               <Nav.Link as={Link} className='font-text text-navbar'  to='Newspaper' >Hemeroteca</Nav.Link>
-              <Nav.Link as={Link} className='font-text text-navbar'  to='Contact' >Contacto</Nav.Link>
+              
               <Nav.Link as={Link} className='font-text text-navbar'  to='Catalogue' >Catálogo</Nav.Link>
+              <Nav.Link as={Link} className='font-text text-navbar'  to='Contact' >Contacto</Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>

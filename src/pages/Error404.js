@@ -1,12 +1,19 @@
-
-
+import '../styles/Error.css'
+import error from '../imagenes/error.png'
+import Footer from '../components/Footer.js'
 const Error404 = () => {
-    return(
-        <div>
-            <h1 className="text-center my-5">Error 404</h1>
+    return (
+        <>                       
+         <center>
+            <img
+         className='img-error'
+          src={error}
+          alt='error' />
+          </center> 
 
-            
-        </div>
+
+          <Footer />
+        </>
 
 
     )
